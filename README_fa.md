@@ -1,4 +1,4 @@
-<h1 align="center">💦 پنل BPB</h1> 
+<h1 align="center">💦 پنل BPB</h1>
 
 #### 🌏 [English](README.md)
 
@@ -19,7 +19,7 @@
 ### USDT (BEP20)
 
 ```text
-0x111EFF917E7cf4b0BfC99Edffd8F1AbC2b23d158
+0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
 ```
 
 ## ویژگی‌ها
@@ -29,7 +29,7 @@
 * **پروتکل‌های متنوع**: ارائه کانفیگ‌های VLESS، Trojan و Wireguard (Warp).
 * **کانفیگ‌های Warp Pro**: کانفیگ‌های Warp بهینه‌شده برای شرایط خاص ایران.
 * **پشتیبانی از Fragment**: اتصال حتی در صورت فیلتر شدن دامنه.
-* **قوانین مسیریابی کامل**: دور زدن سایت‌های ایرانی، چینی، روسی و LAN، مسدود کردن QUIC، محتوای پورن، تبلیغات، بدافزارها، فیشینگ و غیره.
+* **قوانین مسیریابی کامل**: دور زدن سایت‌های ایرانی، چینی، روسی و LAN، مسدود کردن QUIC، محتوای پورن، تبلیغات، بدافزارها، فیشینگ و در زدن سایت‌های تحریمی.
 * **زنجیره‌ی Proxy**: می‌تونید یه Proxy زنجیره‌ای اضافه کنید تا IP ثابت بشه.
 * **پشتیبانی از برنامه‌های مختلف**: لینک‌های اشتراک برای برنامه‌های با هسته‌های Xray، Sing-box و Clash-Mihomo.
 * **پنل امن با رمز عبور**: پنل محافظت شده با رمز عبور.
@@ -48,6 +48,7 @@
 * [پرسش‌های متداول (FAQ)](https://bia-pain-bache.github.io/BPB-Worker-Panel/en/faq/)
 
 ## برنامه‌های پشتیبانی شده
+
 <div dir="rtl">
 <table>
   <thead>
@@ -59,32 +60,32 @@
   <tbody  align="center">
     <tr>
       <td><b>v2rayNG</b></td>
-      <td>1.9.33 و بالاتر</td>
+      <td>1.10.2 و بالاتر</td>
+      <td>✔️</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>MahsaNG</b></td>
+      <td>13 و بالاتر</td>
       <td>✔️</td>
       <td>✔️</td>
     </tr>
     <tr>
       <td><b>v2rayN</b></td>
-      <td>7.8.3 و بالاتر</td>
+      <td>7.12.5 و بالاتر</td>
       <td>✔️</td>
       <td>✔️</td>
     </tr>
     <tr>
       <td><b>v2rayN-Pro</b></td>
-      <td>1.8 و بالاتر</td>
+      <td>1.9 و بالاتر</td>
       <td>✔️</td>
       <td>✔️</td>
-    </tr>
-    <tr>
-      <td><b>Husi</b></td>
-      <td></td>
-      <td>❌</td>
-      <td>❌</td>
     </tr>
     <tr>
       <td><b>Sing-box</b></td>
-      <td>1.11.2 و بالاتر</td>
-      <td>❌</td>
+      <td>1.12.0 و بالاتر</td>
+      <td>✔️</td>
       <td>❌</td>
     </tr>
     <tr>
@@ -94,31 +95,7 @@
       <td>✔️</td>
     </tr>
     <tr>
-      <td><b>V2Box</b></td>
-      <td></td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td><b>Shadowrocket</b></td>
-      <td></td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td><b>Nekoray</b></td>
-      <td></td>
-      <td>✔️</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td><b>Hiddify</b></td>
-      <td>2.0.5 و بالاتر</td>
-      <td>✔️</td>
-      <td>✔️</td>
-    </tr>
-    <tr>
-      <td><b>NikaNG</b></td>
+      <td><b>Happ</b></td>
       <td></td>
       <td>✔️</td>
       <td>✔️</td>
@@ -141,11 +118,24 @@
       <td>❌</td>
       <td>❌</td>
     </tr>
+    <tr>
+      <td><b>AmneziaVPN</b></td>
+      <td></td>
+      <td>❌</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>WG Tunnel</b></td>
+      <td></td>
+      <td>❌</td>
+      <td>✔️</td>
+    </tr>
   </tbody>
 </table>
 </div>
 
 ## متغیرهای محیطی (داشبورد کلادفلر)
+
 <div dir="rtl">
 <table>
   <thead>
@@ -166,6 +156,10 @@
       <td>Proxy IP برای VLESS و Trojan</td>
     </tr>
     <tr>
+      <td><b>PREFIX</b></td>
+      <td>NAT64 Prefix برای VLESS و Trojan</td>
+    </tr>
+    <tr>
       <td><b>SUB_PATH</b></td>
       <td>مسیر لینک‌های اشتراک شخصی</td>
     </tr>
@@ -182,13 +176,15 @@
 </div>
 
 ---
+
 ## تعداد ستاره‌ها به مرور زمان
 
 [![تعداد ستاره‌ها به مرور زمان](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
 
 ---
+
 ### تشکر ویژه
 
-- نویسنده پروتکل‌های VLESS و Trojan <a href="https://github.com/yonggekkk/Cloudflare-workers-pages-vless">پروکسی Cloudflare-workers/pages</a>
-- نویسنده کد CF-vless <a href="https://github.com/3Kmfi6HP/EDtunnel">3Kmfi6HP</a>
-- نویسنده برنامه IP ترجیحی CF <a href="https://github.com/badafans/Cloudflare-IP-SpeedTest">badafans</a>، <a href="https://github.com/XIU2/CloudflareSpeedTest">XIU2</a>
+* نویسنده پروتکل‌های VLESS و Trojan <a href="https://github.com/yonggekkk/Cloudflare-workers-pages-vless">پروکسی Cloudflare-workers/pages</a>
+* نویسنده کد CF-vless <a href="https://github.com/3Kmfi6HP/EDtunnel">3Kmfi6HP</a>
+* نویسنده برنامه IP ترجیحی CF <a href="https://github.com/badafans/Cloudflare-IP-SpeedTest">badafans</a>، <a href="https://github.com/XIU2/CloudflareSpeedTest">XIU2</a>
